@@ -1,0 +1,26 @@
+sudo apt-get update
+
+sudo apt-get purge openoffice.org* network-manager* 
+sudo apt-get purge transmission* pitivi* brasero* firefox* empathy* 
+sudo apt-get purge gwibber* tsclient* vinagre*
+
+sudo apt-get install language-support*-ru
+
+sudo add-apt-repository ppa:chromium-daily/dev
+sudo apt-get install -y chromium-browser-l10n
+
+sudo apt-get install -y emacs pidgin gnome-do mplayer htop
+
+#dropbox
+#rtorrent
+#
+
+sudo add-apt-repository ppa:gajim/gajim-ppa
+sudo apt-get install -y gajim 
+
+
+
+echo
+echo
+echo 'Работа скрипта закончена'
+read
